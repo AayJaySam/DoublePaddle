@@ -93,4 +93,8 @@ namespace MG
             }
         }
     }
+    public struct Sprite
+    {
+        int[] x,y,next;
+    }
 }
