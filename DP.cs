@@ -56,6 +56,7 @@ namespace MG
                 case 0:Screen=new Logo();break;
                 case 1:Screen=new MenuScreen();break;
                 case 2:Screen=new GameScreen(Color.Black);break;
+                default:break;
                 //Add cases for Screens
             }
             Screen.LoadContent();
